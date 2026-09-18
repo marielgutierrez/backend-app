@@ -74,7 +74,7 @@ El servidor estará escuchando en `http://localhost:5000`.
 
 ## 🔐 Listado de Errores Encriptado
 
-El proyecto incluye el archivo `ERRORS.md.enc` con el listado cifrado mediante el **Cifrado Vigenère** (Algoritmo 2 - Clave alfabética: `CANCIONES`) de los 10 errores deliberados y sus efectos esperados.
+El proyecto incluye el archivo `doc_errores1.txt` con el listado cifrado mediante el **Cifrado Vigenère** (Algoritmo 2 - Clave alfabética: `CANCIONES`) de los 10 errores deliberados y sus efectos esperados.
 
 Para desencriptar este archivo, utiliza una herramienta externa de desencriptación seleccionando **Cifrado Vigenère** e ingresando la clave `CANCIONES`.
 
