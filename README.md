@@ -116,7 +116,7 @@ backend/
 ├── package.json
 ├── README.md
 ├── ARCHITECTURE.md
-├── ERRORS.md.enc
+├── doc_errores1.txt
 ├── scripts/
 │   ├── encryptErrors.js
 │   └── decryptErrors.js
