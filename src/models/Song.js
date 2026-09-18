@@ -24,10 +24,8 @@ const songSchema = new mongoose.Schema({
   releaseYear: {
     type: Number,
     required: true,
-    // ERROR #4 DELIBERADO: La validación exige que el año de lanzamiento sea estrictamente mayor al año actual,
-    // rechazando cualquier canción lanzada en el pasado o en el presente.
     validate: {
-      validator: function(v) {
+      validator: function (v) {
         return v > new Date().getFullYear();
       },
       message: props => `${props.value} no es un año de lanzamiento válido (debe ser mayor al año actual)`
